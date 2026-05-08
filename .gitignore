@@ -5,8 +5,10 @@ __pycache__/
 venv/
 env/
 .env
-logs/
-*.cast
 .DS_Store
 .idea/
 .vscode/
+
+# ignore live runs but keep the committed example logs
+logs/
+!examples/
